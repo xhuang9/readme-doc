@@ -1,0 +1,20 @@
+{
+  "name": "readme-doc",
+  "interface": {
+    "displayName": "README Doc"
+  },
+  "plugins": [
+    {
+      "name": "doc",
+      "source": {
+        "source": "local",
+        "path": "./plugins/readme-doc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

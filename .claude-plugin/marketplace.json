@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "readme-doc",
+  "owner": {
+    "name": "xhuang9"
+  },
+  "plugins": [
+    {
+      "name": "doc",
+      "source": "./plugins/readme-doc",
+      "description": "LLM-optimized 3-tier project documentation (.readme/ chunks + section indexes + CLAUDE.md map) with a bundled sonnet docs agent and an expiry/manifest freshness lifecycle.",
+      "category": "documentation"
+    }
+  ]
+}

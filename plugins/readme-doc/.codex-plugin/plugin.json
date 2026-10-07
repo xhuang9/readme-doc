@@ -1,0 +1,31 @@
+{
+  "name": "doc",
+  "version": "0.1.0",
+  "description": "LLM-optimized 3-tier project documentation with a freshness lifecycle.",
+  "author": {
+    "name": "xhuang9"
+  },
+  "keywords": [
+    "documentation",
+    "readme",
+    "docs",
+    "llm-docs"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "README Doc",
+    "shortDescription": "Create and maintain LLM-optimized project documentation.",
+    "longDescription": "Build and maintain a three-tier .readme knowledge tree, section indexes, the CLAUDE.md routing table (AGENTS.md points to it), manifest, and documentation freshness lifecycle.",
+    "developerName": "xhuang9",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Document the work completed in this thread.",
+      "Create project documentation for this codebase.",
+      "Refresh the expired documentation chunks."
+    ]
+  }
+}

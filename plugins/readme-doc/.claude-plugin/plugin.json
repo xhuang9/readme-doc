@@ -1,0 +1,15 @@
+{
+  "name": "doc",
+  "version": "0.1.0",
+  "description": "LLM-optimized 3-tier project documentation: .readme/ chunks + section indexes mapped from the entry file (CLAUDE.md, with AGENTS.md pointing to it), with a bundled sonnet docs agent (init/task/update modes) and a docs-manifest + *.expired.md freshness lifecycle.",
+  "author": {
+    "name": "xhuang9"
+  },
+  "keywords": [
+    "documentation",
+    "readme",
+    "docs",
+    "llm-docs",
+    "claude-md"
+  ]
+}
