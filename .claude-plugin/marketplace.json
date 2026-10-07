@@ -4,11 +4,12 @@
   "owner": {
     "name": "xhuang9"
   },
+  "description": "Shared knowledge space for coding agents: a local .readme/ of verified notes that Claude Code and Codex both read. For small to medium-sized projects.",
   "plugins": [
     {
       "name": "doc",
       "source": "./plugins/readme-doc",
-      "description": "LLM-optimized 3-tier project documentation (.readme/ chunks + section indexes + CLAUDE.md map) with a bundled sonnet docs agent and an expiry/manifest freshness lifecycle.",
+      "description": "Builds and maintains a local .readme/ knowledge space that Claude Code and Codex share: three-tier notes indexed from CLAUDE.md, an isolated writer agent, and stale-note detection.",
       "category": "documentation"
     }
   ]
